@@ -98,7 +98,7 @@ h3, .h3{
 
 /* ---------- Layout ---------- */
 .container{ max-width: var(--container); margin:0 auto; padding: 0 var(--pad); }
-.section{ padding: var(--section-pad) 0; }
+.section{ padding-top: var(--section-pad); padding-bottom: var(--section-pad); }
 .section-head{
   display:flex;
   justify-content:space-between;
@@ -269,7 +269,7 @@ h3, .h3{
 /* ---------- Testimonial / CTA ---------- */
 .cta-band{
   border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
-  padding: var(--section-pad) 0; text-align:center;
+  padding-top: var(--section-pad); padding-bottom: var(--section-pad); text-align:center;
 }
 .cta-band h2{ max-width: 18ch; margin: 0 auto 2rem; }
 
